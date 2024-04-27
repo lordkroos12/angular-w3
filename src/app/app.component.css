@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.note {
+    float: left;
+    margin: 30px 100px;
+    width: 75%;
+}
+
+
+
+.centered-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   text-align: center;
+   
+}
+.centered-items input{
+    margin: 10px 0px;
+}
+.note-collection {
+    float: right;
+    width:25%;
+    margin: 30px 100px;
+}
+
+.single-note{
+    border: 1px solid;
+    margin:10px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    margin: 10px 10px;
+}
+.error{
+    color:red;
+    margin:10px 10px;
+}
